@@ -1,0 +1,168 @@
+body {
+    background-image: url("/images/Blur.jpg");
+}
+
+.boxes{
+    border: solid none;
+    width: 67%;
+    height: 20%;
+    text-align: left;
+    color: rgb(1, 4, 6);
+}
+
+#true{
+    position: absolute;
+    top: 10px;
+    left: 230px;
+    color:rgb(170, 134, 199);
+    margin: 0px;
+    font-family: "Dosis", sans-serif;
+}
+
+#top{
+    position: absolute;
+    top: 55px;
+    left: 230px;
+    color:rgb(193, 171, 211);
+    margin: 0px;
+    font-family: "Dosis", sans-serif;
+}   
+
+img {
+    /* position: absolute; */
+    float: left;
+    max-height:40%;
+    max-width: 30%;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+#box2 {
+    position: absolute;
+    top: 10px;
+    left: 625px;
+    text-align: right;
+    font-family: "Dosis", sans-serif;
+    font-size: 20px;
+    
+}
+
+th {
+    font-size: 25px;
+    color:rgb(172, 71, 255);
+}    
+
+#box3 {
+    position: absolute;
+    top: 270px;
+    width: 100%;
+    font-family: "Dosis", sans-serif;
+    font-size: 22px;
+}
+
+#empl{
+    position: absolute;
+    top: 410px;
+    width: 70%;
+    padding: 0%;
+    text-align: left;
+    border: none;
+    font-family: "Dosis", sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.exp{
+    position: absolute;
+    top: 450px;
+    width: 70%;
+    padding: 0%;
+    text-align: left;
+    border: none;
+    font-family: "Dosis", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.last_container > fieldset{
+    position: absolute;
+    top: 450px;
+    width: 25%;
+    left: 70%;
+    padding: 0%;
+    text-align: left;
+    border: none;
+    font-family: "Dosis", sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.edu{
+    position: absolute;
+    top: 140%;
+    width: 100%;
+    left: 01%;
+    padding: 0%;
+    text-align: left;
+    border: none;
+    font-family: "Dosis", sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+#gs{
+    position: absolute;
+    bottom: -25px;
+    left: 10px;
+}
+
+.progressChart{
+    position: absolute;
+    bottom: -640px;
+    left: 10%;
+    width: 100%;
+    padding: 0%;
+    text-align: left;
+    border: none;
+    font-family: "Dosis", sans-serif;
+    color: rgb(3, 0, 0);
+}
+
+.blue{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(27, 81, 217);
+}
+
+.purple{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(115, 3, 234);
+}
+
+.pink{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(141, 46, 100);
+}
+
+ul {
+    list-style-type: square;
+  }
+
+li::marker {
+    color: blueviolet;
+}
+
+
+
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    display: float: ;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+  
